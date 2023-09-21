@@ -1,9 +1,15 @@
-import './App.css';
+import HomePage from "./Pages/HomePage";
+import Header from "./Components/Header/Header"
+
+
 
 function App() {
   return (
-    <div className="App">
-      khvandima
+    <div className="container">
+      <Header />
+      <div className="wrapper">
+        <HomePage />
+      </div>
     </div>
   );
 }

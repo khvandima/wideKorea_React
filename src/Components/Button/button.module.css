@@ -1,0 +1,23 @@
+.button__container {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 70px;
+}
+
+.button__btn {
+    padding: 10px 40px 10px;
+    background-color: #9b9898;
+    border-radius: 15px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: .3s;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.button__btn:hover {
+    background-color: #bdb8b8;
+}

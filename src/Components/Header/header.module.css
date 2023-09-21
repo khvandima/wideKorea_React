@@ -1,0 +1,34 @@
+.logo {
+    display: flex;
+    width: 175px;
+    height: 103px;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9b9898;
+    padding: 10px 0;
+}
+
+.nav__link {
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: .3s;
+    /* color: #fff; */
+}
+
+.nav__link:hover {
+    background-color: #bdb8b8;
+}
