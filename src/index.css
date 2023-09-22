@@ -119,3 +119,68 @@ legend {
 }
 
 /* ! HomePage Text block */
+
+
+/* ! Login Page */
+
+.text__container {
+    margin: 30px;
+}
+
+.text {
+    text-align: center;
+}
+
+
+/* ?Login form */
+
+.login__form {
+    width: 28%;
+    margin: 0 auto;
+    background-color: #f5f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fields {
+    margin-bottom: 35px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__field {
+    margin-bottom: 13px;
+}
+
+.text-field__input {
+    border: 1px solid #bdb8b8;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+}
+
+/* ?Buttons */
+
+.login__button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bf__bt {
+    background-color: #bdb8b8;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition-property: all;
+    transition-duration: .3s;
+}
+
+.bf__bt:hover {
+    background-color: #c9f5e4;
+}
+
+/* ! Login Page */

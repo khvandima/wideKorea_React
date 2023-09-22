@@ -1,6 +1,7 @@
-import style from "./header.module.css"
-
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+import style from "./header.module.css"
 
 const Header = () => {
   return (
@@ -12,10 +13,10 @@ const Header = () => {
                 </div>
             </div>
             <nav className={style.nav}>
-                <a href="/" className={style.nav__link}>Home</a>
-                <a href="/about" className={style.nav__link}>About</a>
-                <a href="/contacts" className={style.nav__link}>Contacts</a>
-                <a href="/login" className={style.nav__link}>Login</a>
+                <Link to="/" className={style.nav__link}>Home</Link>
+                <Link to="/about" className={style.nav__link}>About</Link>
+                <Link to="/contacts" className={style.nav__link}>Contacts</Link>
+                <Link to="/login" className={style.nav__link}>Login</Link>
             </nav>
 
         </div>
