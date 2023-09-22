@@ -96,41 +96,54 @@ legend {
 }
 
 
+/* ! Text block start */
 
-/* ! HomePage Text block */
-
-.text {
-    margin-top: 20px;
-    margin-bottom: 100px;
+.text-container {
+    width: 50%;
+    margin: 30px auto;
     padding: 0 50px;
-}
-
-.text__title {
-    margin: 30px;
-}
-
-.text__title_item {
     text-align: center;
+}
+
+.text-text {
+
+}
+
+/* ! Text block end */
+
+
+/* ! Title block start */
+
+.title-container {
+    width: 50%;
+    margin: 30px auto;
+    padding: 0 50px;
+    text-align: center;
+}
+
+/*  H1 start */
+
+.h1-title {
     font-size: 24px;
+    font-weight: bold;
 }
 
-.text__text_item {
-    text-align: center;
+/*  H1 end */
+
+/*  H3 start */
+
+.h3-title {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* ! HomePage Text block */
+/*  H3 end */
+
+/* ! Title block end */
+
 
 
 /* ! Login Page */
-
-.text__container {
-    margin: 30px;
-}
-
-.text {
-    text-align: center;
-}
-
 
 /* ?Login form */
 
