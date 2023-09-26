@@ -20,7 +20,7 @@ const RegistrPage = () => {
                 </div>
                 <div className="password__field field">
                     <label className="text-field__label" for="password">Пароль</label>
-                    <input className="text-field__input" type="text" name="password" id="password" placeholder="Password" />
+                    <input className="text-field__input" type="password" name="password" id="password" placeholder="Password" />
                 </div>
             </div>
             <div className="button_field">

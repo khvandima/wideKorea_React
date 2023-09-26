@@ -105,9 +105,9 @@ legend {
     text-align: center;
 }
 
-.text-text {
+/* .text-text {
 
-}
+} */
 
 /* ! Text block end */
 
@@ -148,7 +148,7 @@ legend {
 /* ?Login form */
 
 .login__form {
-    width: 28%;
+    width: 23%;
     margin: 0 auto;
     background-color: #f5f2f2;
     padding: 20px;
@@ -163,11 +163,14 @@ legend {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    margin-bottom: 13px;
 }
+
 
 .login__field {
     margin-bottom: 13px;
-}
+}    
 
 .text-field__input {
     border: 1px solid #bdb8b8;
@@ -197,3 +200,115 @@ legend {
 }
 
 /* ! Login Page */
+
+
+
+
+/* !RezervById Page */
+
+.img_container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* ?Красные цифры на форме */
+
+.field-position1 {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    right: 221px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.field-position2 {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    right: 221px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.field-position3 {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    right: 221px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.field-position__Q {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(136, 133, 133);
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    right: 221px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ?Красные цифры на форме */
+
+.date-input {
+    display: flex;
+    justify-content: space-between;
+    width: 60.7%;
+    align-items: center;
+
+}
+
+.date-input_field {
+    background-color: #fff;
+    width: 45%;
+    border: 1px solid #bdb8b8;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+}
+
+
+/* !RezervById Page */
+
+
+/* ! Rezerv OK Page */
+
+.back_to_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.back-btn {
+    padding: 5px 15px;
+    background-color: #9b9898;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: .3s;
+}
+
+.back-btn:hover {
+    background-color: #bdb8b8;
+    color: #eeebeb;
+}
+
+/* ! Rezerv OK Page */

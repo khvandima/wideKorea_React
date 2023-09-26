@@ -15,7 +15,7 @@ const RezervType = () => {
           Test
         </h3>
       </div>
-      <Button img1="../../image/idCard.png" img2="../../image/password.png" title1="ID Card" title2="Passport" path1="/" />
+      <Button img1="../../image/idCard.png" img2="../../image/password.png" title1="ID Card" title2="Passport" path1="/rez_by_id" path2="/rez_by_passport" />
     </div>
   )
 }
