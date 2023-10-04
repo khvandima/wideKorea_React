@@ -9,6 +9,7 @@ import RezervType from './Pages/RezervType';
 import RezervById from './Pages/RezervById';
 import RezervByPassport from './Pages/RezervByPassport';
 import RezervOkPage from "./Pages/RezervOkPage";
+import DocsTypePage from "./Pages/DocsTypePage";
 
 
 import { Routes, Route } from 'react-router-dom'
@@ -31,6 +32,7 @@ function App() {
           <Route path="/rez_by_id" element={<RezervById />} />
           <Route path="/rez_by_passport" element={<RezervByPassport />} />
           <Route path="/rez_ok_page" element={<RezervOkPage />} />
+          <Route path="/docs_type_page" element={<DocsTypePage />} />
 
         </Routes>
       </div>

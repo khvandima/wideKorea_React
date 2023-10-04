@@ -310,5 +310,15 @@ legend {
     background-color: #bdb8b8;
     color: #eeebeb;
 }
-
 /* ! Rezerv OK Page */
+
+
+/*  ! DocsTypePage */
+.docs-card_container {
+    margin: 0 auto;
+    display: grid;
+    width: 40%;
+    grid-template-columns: 1fr 1fr;
+
+}
+/*  ! DocsTypePage */
